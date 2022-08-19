@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokemon.css">
+    <title>Document</title>
+</head>
+<body>  
+<div class="navbar">
+    <div class="nav-item">
+        <a href="#" class="logo">Pokkymon</a>
+    </div>
+
+    <div class="nav-item">
+        <button class="btn register" onclick="">Kayıt Ol</button>
+        <button class="btn login" onclick="">Giriş Yap</button>
+    </div>
+</div>    
+<hr>
+    <div class="content">
+            <form class="searchform">
+                <input id="category-input" class="searchbar" type="text" placeholder="Search">
+                <button onclick="setInputCategory()" class="btn searchimg" type="button">Search</button>
+              </form>
+    
+
+
+              <div id="poke_container" class="poke_container"></div>
+
+
+
+
+
+
+
+    </div>
+    <script src="pokemon.js"></script>
+</body>
+</html>
